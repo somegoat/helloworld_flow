@@ -26,4 +26,10 @@
         self.greeting = greet
         self.counter = self.counter + 1
     }
+
+    // Public function to reset our greeting
+    pub fun reset_greeting() {
+        self.greeting = "Hello, World!"
+        self.counter = 1
+    }
 }
