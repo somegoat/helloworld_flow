@@ -32,4 +32,11 @@
         self.greeting = "Hello, World!"
         self.counter = 1
     }
+
+    // Public function to give a blank greeting
+    pub fun no_greeting() {
+        self.greeting = ""
+        self.counter = self.counter + 1
+    }
 }
+ 
