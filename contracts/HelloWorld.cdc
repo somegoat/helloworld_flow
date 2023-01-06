@@ -38,5 +38,11 @@
         self.greeting = ""
         self.counter = self.counter + 1
     }
+
+    // Public function to double the greeting
+    pub fun double_greeting() {
+        self.greeting = self.greeting.concat(" ").concat(self.greeting)
+        self.counter = self.counter + 1
+    }
 }
  
